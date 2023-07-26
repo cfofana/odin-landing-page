@@ -1,2 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,900&display=swap');
 /* Roboto font(400 and 900) */
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #1F2937;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.main-nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
