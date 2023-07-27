@@ -16,6 +16,7 @@ header {
     max-width: 100%;
     text-align: center;
     padding: 0 10% 0 10%;
+    margin: auto;
 }
 
 .logo {
@@ -25,6 +26,7 @@ header {
 }
 .main-nav {
     margin: 0;
+    padding: 0;
 }
 .main-nav li {
     display: inline-block;
@@ -36,4 +38,20 @@ header {
 .main-nav a {
     color: #E5E7EB;
     text-decoration: none;
+}
+.hero {
+    display: inline-block;
+    width: 95%;
+    background-color: gray;
+}
+.hero-txt {
+    max-width: 40%;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.hero-img {
+    background-color: rgb(65, 43, 43);
+    max-width: 40%;
+    height: auto;
+    display: inline-block;
 }
