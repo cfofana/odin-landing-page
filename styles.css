@@ -8,12 +8,14 @@
 body {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 header {
     background-color: #1F2937;
     color: #ffffff;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
+    padding: 0 10% 0 10%;
 }
 
 .logo {
@@ -21,10 +23,15 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
-
+.main-nav {
+    margin: 0;
+}
 .main-nav li {
     display: inline-block;
     padding: 10px 20px 10px 20px;
+}
+.main-nav li:nth-child(2) {
+    margin-left: 10%;
 }
 .main-nav a {
     color: #E5E7EB;
