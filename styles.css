@@ -81,3 +81,26 @@ header {
     margin: 0 auto;
     padding-top: 10px;
 }
+.testimonials {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 400;
+    font-style: italic;
+    width: 75%;
+    margin: 120px auto;
+    padding: 80px 50px 80px 50px;
+}
+.author {
+    color: black;
+    font-style: normal;
+    text-align: right;
+}
+.call-to-action {
+    width: 55%;
+    background-color:#3882f6;
+    color: white;
+    margin: 20px auto;
+    padding: 40px 100px 40px 100px;
+    border-radius: 15px;
+}
