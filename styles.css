@@ -104,3 +104,21 @@ header {
     padding: 40px 100px 40px 100px;
     border-radius: 15px;
 }
+.cta-txt {
+    width: 70%;
+    display: inline-block;
+}
+.cta-btn {
+    float: right;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 25px;
+    color: white;
+
+}
+.cta-btn-container {
+    display: inline-block;
+    vertical-align: middle;
+}
