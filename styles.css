@@ -18,6 +18,10 @@ header {
     padding: 0 10% 0 10%;
     margin: auto;
 }
+.container {
+    width: 95%;
+    border: 2px solid black;
+}
 
 .logo {
     float: left;
@@ -33,16 +37,16 @@ header {
     padding: 10px 20px 10px 20px;
 }
 .main-nav li:nth-child(2) {
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 .main-nav a {
     color: #E5E7EB;
     text-decoration: none;
 }
 .hero {
-    display: inline-block;
-    width: 95%;
-    padding-bottom: 90px;
+    /* display: inline-block; */
+    /* width: 95%; */
+    /* padding-bottom: 90px; */
 }
 .hero-txt {
     max-width: 45%;
