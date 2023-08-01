@@ -15,12 +15,11 @@ header {
     color: #ffffff;
     max-width: 100%;
     text-align: center;
-    padding: 0 10% 0 10%;
-    margin: auto;
+    padding: 0 0 135px 0;
+    margin-bottom: 100px; 
 }
 .container {
-    width: 95%;
-    border: 2px solid black;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -30,7 +29,7 @@ header {
     color: #F9FAF8;
 }
 .main-nav {
-    margin: 0;
+    margin: 0 0 135px 0;
     padding: 0;
 }
 .main-nav li {
@@ -50,18 +49,18 @@ header {
     /* padding-bottom: 90px; */
 }
 .hero-txt {
-    max-width: 45%;
+    width: 45%;
     display: inline-block;
     text-align: left;
     padding-right: 40px;
 }
 .hero-img {
-    max-width: 45%;
+    width: 45%;
     display: inline-block;
     vertical-align: top;
 }
 .hero-btn {
-    padding: 12px 26px 12px 26px;
+    padding: 8px 26px 8px 26px;
     border-radius: 10px;
     border-style: none;
     color: white;
