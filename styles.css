@@ -21,6 +21,7 @@ header {
 .container {
     width: 95%;
     border: 2px solid black;
+    margin: 0 auto;
 }
 
 .logo {
