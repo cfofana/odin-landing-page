@@ -71,18 +71,21 @@ header {
 .site-info {
     text-align: center;
 }
+.site-info h2 {
+    margin-bottom: 60px;
+}
 .site-info article {
     display: inline-block;
     width: 20%;
 
 }
 .site-info img {
-    width: 50%;
-    height: 100px;
+    width: 70%;
+    height: 150px;
     border-radius: 15%;
 }
 .site-info p {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 10px;
 }
